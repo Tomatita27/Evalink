@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Flutter y Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android
+.gradle/
+local.properties
+*.keystore
+*.jks
+key.properties
+
+# Entornos y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos temporales
+desktop.ini
+Thumbs.db
+*.log
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+
+# Archivos comprimidos
+*.zip
+
+# Flutter - archivos generados
+**/flutter/generated_plugin_registrant.*
+**/flutter/generated_plugins.cmake
+
+# Metadatos locales
+.metadata
